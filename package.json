@@ -1,0 +1,18 @@
+{
+  "name": "playwright-js",
+  "version": "1.0.0",
+  "description": "Sample playground repo to play around with Playwright using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm update browserstack-node-sdk",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.9.2"
+  }
+}
