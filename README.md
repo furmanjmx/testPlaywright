@@ -10,11 +10,11 @@ npm i
 
 ## run tests Safari
 ```bash
-npx playwright test --project="SafariLocal"  
+npx playwright test --project="SafariLocal" --grep @regression  
 ```
 ## run tests Chrome
 ```bash
-npx playwright test --project="ChromeLocal"  
+npx playwright test --project="ChromeLocal" --grep @smoke 
 ```
 
 
