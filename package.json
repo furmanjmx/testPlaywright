@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sample playground repo to play around with Playwright using JavaScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "postinstall": "npm update browserstack-node-sdk",
     "test": "npx playwright test"
