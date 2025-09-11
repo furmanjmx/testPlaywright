@@ -1,10 +1,9 @@
 import { defineConfig } from '@playwright/test';
-
-const dotenv = require('dotenv');
+import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-module.exports = defineConfig({
+export default defineConfig({
   testDir: './tests',
   timeout: 60000,
   retries: 1,

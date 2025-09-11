@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1318d44-c3c1-442d-a9e5-045319d7ded2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-report/data/332c8ae415eaeb453761842f1b8323c3ca32b8ba.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-report/data/7f5f45b06eecbe0c6b64de9c0bb637f25761d277.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocks/barksiInterceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mocks/barksiInterceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FilterPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FilterPage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-artifacts/discountFilter-Discount-filtering-with-mocked-API-regression-SafariLocal/trace.zip" beforeDir="false" afterPath="$PROJECT_DIR$/test-artifacts/discountFilter-Discount-filtering-with-mocked-API-regression-SafariLocal/trace.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-artifacts/discountFilter-Discount-filtering-with-mocked-API-regression-SafariLocal/video.webm" beforeDir="false" afterPath="$PROJECT_DIR$/test-artifacts/discountFilter-Discount-filtering-with-mocked-API-regression-SafariLocal/video.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/discountFilter.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/discountFilter.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757231543858</updated>
-      <workItem from="1757231544940" duration="9548000" />
+      <workItem from="1757231544940" duration="12038000" />
     </task>
     <servers />
   </component>
