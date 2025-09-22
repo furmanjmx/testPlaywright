@@ -15,16 +15,17 @@ export class FilterPage {
     const newPriceLocators = this.page.locator(selectors.newPrice);
     const discountLabelLocators = this.page.locator(selectors.discountLabel);
     const count = await oldPriceLocators.count();
-    expect(count).toBe(5);
+    expect(count).toBe(3);
+    const expectedStarts = ["9", "7", "16"];
     for (let i = 0; i < count; i++) {
       const newPriceText = (await newPriceLocators.nth(i).textContent())?.trim() ?? '';
       const discountLabel = (await discountLabelLocators.nth(i).textContent())?.trim() ?? '';
-      if (!discountLabel.includes('95')) {
-        throw new Error(`Ожидали, что скидка будет содержать "95", но получили: "${discountLabel}"`);
+      if (!discountLabel.includes("95")) {
+        throw new Error(
+            `Ожидали, что скидка будет содержать "95", но получили: "${discountLabel}"`
+        );
       }
-      if (i === 0) {
-        expect(newPriceText.startsWith('3')).toBeTruthy();
-      }
+      expect(newPriceText.startsWith(expectedStarts[i])).toBeTruthy();
     }
   }
 }
