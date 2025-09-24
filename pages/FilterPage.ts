@@ -15,8 +15,8 @@ export class FilterPage {
     const newPriceLocators = this.page.locator(selectors.newPrice);
     const discountLabelLocators = this.page.locator(selectors.discountLabel);
     const count = await oldPriceLocators.count();
-    expect(count).toBe(3);
-    const expectedStarts = ["9", "7", "16"];
+    expect(count).toBe(4);
+    const expectedStarts = ["7", "16", "8", "8"];
     for (let i = 0; i < count; i++) {
       const newPriceText = (await newPriceLocators.nth(i).textContent())?.trim() ?? '';
       const discountLabel = (await discountLabelLocators.nth(i).textContent())?.trim() ?? '';
